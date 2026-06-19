@@ -1,22 +1,31 @@
-# Mi-primer-Agente-Testing
-Mi primer Agente de Testing   Proyecto desarrollado en Node.js con Express, que simula un agente de mensajes para validar la lógica de respuesta de un chatbot antes de conectarlo a una API real
+# Mi primer Agente de Testing
 
-🔹 Objetivo: probar y asegurar la correcta recepción y respuesta de mensajes en formato JSON.
-🔹 Tecnologías: Node.js, Express, Thunder Client (para testing local).
-🔹 Funcionamiento:
+Proyecto desarrollado en **Node.js** con **Express**, que simula un agente de mensajes para validar la lógica de respuesta de un chatbot antes de conectarlo a una API real (por ejemplo, WhatsApp).
 
-El servidor recibe un POST en /mensaje con un body JSON { "texto": "..." }.
+---
 
-Devuelve una respuesta automática según el mensaje recibido.
+## 🎯 Objetivo
+- Probar y asegurar la correcta recepción y respuesta de mensajes en formato JSON.  
+- Validar la lógica de interacción sin depender de servicios externos.  
 
-Permite validar la lógica de interacción sin depender de servicios externos.
+---
 
-💬 Respuestas predeterminadas:
+## ⚙️ Tecnologías
+- Node.js  
+- Express  
+- Thunder Client (para testing local)  
 
-"hola" → "¡Hola! ¿Cómo estás?"
+---
 
-"test" → "Este es un mensaje de prueba."
+## 🚀 Instalación
+```bash
+npm install express body-parser
+```
 
-"chau" → "¡Hasta luego!"
 
-Otro texto → "No entiendo tu mensaje."
+## Desde la consola de CMD , ejecutar el comando
+node agente1.js
+
+ El servidor deberia iniciarse en http://localhost:3000.
+<img width="1536" height="1024" alt="Copilot_20260618_213503" src="https://github.com/user-attachments/assets/9f05707f-3742-460f-bda7-57564a9a2835" />
+

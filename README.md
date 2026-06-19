@@ -27,5 +27,10 @@ npm install express body-parser
 node agente1.js
 
  El servidor deberia iniciarse en http://localhost:3000.
-<img width="1536" height="1024" alt="Copilot_20260618_213503" src="https://github.com/user-attachments/assets/9f05707f-3742-460f-bda7-57564a9a2835" />
+
+
+
+
+
+
 

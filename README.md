@@ -31,6 +31,7 @@ node agente1.js
 
 
 
+<img width="1535" height="1024" alt="ChatGPT Image 19 jun 2026, 18_38_25" src="https://github.com/user-attachments/assets/126325e2-3e07-432a-a93c-4a26aeb55f97" />
 
 
 
